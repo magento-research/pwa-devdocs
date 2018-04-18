@@ -7,15 +7,6 @@
     - label: peregrine
       url: /technologies/peregrine/
 
-- label: Reference and Guides
-  links:
-    - label: UI Components Reference
-      url: /reference/ui-components/
-    - label: Testing Guide
-      url: /guides/testing
-    - label: Tutorials
-      url: /tutorials/
-
 - label: External DevDocs Sites
   links:
     - label: Magento DevDocs
