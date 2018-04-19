@@ -11,3 +11,8 @@ defaults:
       path: "technologies"
     values:
       toc-group: "technologies"
+  -
+    scope:
+      path: "peregrine"
+    values:
+      toc-group: "peregrine"

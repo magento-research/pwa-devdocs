@@ -30,4 +30,4 @@ The Magento PWA project provides the following tools:
 
 [tools and libraries]: {{ site.baseurl }}{% link technologies/tools-libraries/index.md %}
 [pwa-buildpack]: {{ site.baseurl }}{% link technologies/pwa-buildpack/index.md %}
-[peregrine]: {{ site.baseurl }}{% link technologies/peregrine/index.md %}
+[peregrine]: {{ site.baseurl }}{% link peregrine/index.md %}

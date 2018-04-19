@@ -11,6 +11,3 @@ entries:
     entries:
   - label: pwa-buildpack
     url: /technologies/pwa-buildpack/
-
-  - label: peregrine
-    url: /technologies/peregrine/

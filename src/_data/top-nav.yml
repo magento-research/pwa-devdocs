@@ -5,7 +5,7 @@
     - label: pwa-buildpack
       url: /technologies/pwa-buildpack/
     - label: peregrine
-      url: /technologies/peregrine/
+      url: /peregrine/
 
 - label: External DevDocs Sites
   links:
