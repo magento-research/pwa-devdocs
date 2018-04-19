@@ -5,27 +5,29 @@ layout: home
 <section class="home-features">
     <div class="container">
         <div class="feature card">
-            <img src="{{site.baseurl}}/static/images/what-is-pwa.png" alt="Magento Research"/>
+            <img src="{{site.baseurl}}{% link static/images/what-is-pwa.png %}" alt="Magento Research"/>
             <h2 class="title">What is Magento PWA</h2>
             <p>
                 A Progressive Web App, or PWA, is a website or web app that is built using performance-focused and mobile-centered implementation patterns.
                 The Magento PWA project provides all the necessary support systems and tools to make a Magento storefront theme powered by PWA technologies. 
             </p>
             <p>
-                See <a href="{{ site.baseurl }}/technologies/overview/">Magento PWA Overview</a> for more information.
+                See <a href="{{ site.baseurl }}{% link technologies/overview/index.md %}">Magento PWA Overview</a> for more information.
             </p>
         </div>
         <div class="feature side">
-            <img src="{{site.baseurl}}/static/images/getting-started.png" style="width:25px" alt="Magento Research"/>
+            <img src="{{site.baseurl}}{% link static/images/getting-started.png %}" style="width:25px" alt="Magento Research"/>
             <h2 class="title">Getting Started</h2>
             <ul>
-                <li><a href="{{ site.baseurl }}/technologies/overview/">Overview</a></li>
-                <li><a href="{{ site.baseurl }}/technologies/basic-concepts/">Basic Concepts</a></li>
-                <li><a href="{{ site.baseurl }}/technologies/tools-libraries/">Tools and Libraries</a></li>
+                <li><a href="{{ site.baseurl }}{% link technologies/overview/index.md %}">Overview</a></li>
+                <li><a href="{{ site.baseurl }}{% link technologies/basic-concepts/index.md %}">Basic Concepts</a></li>
+                <li><a href="{{ site.baseurl }}{% link technologies/tools-libraries/index.md %}">Tools and Libraries</a></li>
+                <li><a href="{{ site.baseurl }}{% link pwa-buildpack/index.md %}">PWA Buildpack</a></li>
+                <li><a href="{{ site.baseurl }}{% link peregrine/index.md %}">Peregrine</a></li>
             </ul>
         </div>
         <div class="feature card">
-            <img src="{{site.baseurl}}/static/images/contribute.png" alt="Magento Research"/>
+            <img src="{{site.baseurl}}{% link static/images/contribute.png %}" alt="Magento Research"/>
             <h2 class="title">Contribute to the project</h2>
             <p>
                 The Magento PWA project is an open source project that welcomes community contributions and collaboration.
@@ -35,7 +37,7 @@ layout: home
             </p>
         </div>
         <div class="feature side">
-            <img src="{{site.baseurl}}/static/images/repos.png" alt="Magento Research"/>
+            <img src="{{site.baseurl}}{% link static/images/repos.png %}" alt="Magento Research"/>
             <h2 class="title">Repositories</h2>
             <ul>
                 <li><a href="https://github.com/magento-research/pwa-buildpack">Buildpack</a></li>

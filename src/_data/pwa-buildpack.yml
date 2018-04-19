@@ -1,6 +1,6 @@
 title: pwa-buildpack
 entries:
-  - label: Introduction
+  - label: Overview
     url: /pwa-buildpack/
 
   - label: Tools reference
