@@ -1,8 +1,8 @@
 {% if page.toc-group == "technologies" %}
     {% assign toc = site.data.technologies %}
-{% else page.toc-group == "pwa-buildpack" %}
+{% elsif page.toc-group == "pwa-buildpack" %}
     {% assign toc = site.data.pwa-buildpack %}
-{% else page.toc-group == "peregrine" %}
+{% elsif page.toc-group == "peregrine" %}
     {% assign toc = site.data.peregrine %}
 {% endif %}
 
