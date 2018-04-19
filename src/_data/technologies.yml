@@ -9,5 +9,3 @@ entries:
   - label: Basic concepts
     url: /technologies/basic-concepts/
     entries:
-  - label: pwa-buildpack
-    url: /technologies/pwa-buildpack/

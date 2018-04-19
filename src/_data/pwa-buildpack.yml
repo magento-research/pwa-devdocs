@@ -1,0 +1,14 @@
+title: pwa-buildpack
+entries:
+  - label: Introduction
+    url: /pwa-buildpack/
+
+  - label: Tools reference
+    entries:
+
+      - label: magento-layout-loader
+        url: /pwa-buildpack/reference/layout-loader/
+      
+      - label: MagentoRootComponentsPlugin
+        url: /pwa-buildpack/reference/root-components-plugin/
+      

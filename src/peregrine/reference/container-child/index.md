@@ -10,7 +10,6 @@ The `ContainerChild` component is the only child allowed within a `Container` in
 | -------- | :-------------------------------------------: | --------------------------------------------------------- |
 | `id`     | <i class="material-icons green">check_box</i> | A unique string identifier                                |
 | `render` | <i class="material-icons green">check_box</i> | A [render prop] that should return the children to render |
-{:style="table-layout: auto;"}
 
 ## Example
 

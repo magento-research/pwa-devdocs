@@ -29,5 +29,5 @@ The Magento PWA project provides the following tools:
 * **[peregrine]** - Contains a collection of UI components for a Magento PWA.
 
 [tools and libraries]: {{ site.baseurl }}{% link technologies/tools-libraries/index.md %}
-[pwa-buildpack]: {{ site.baseurl }}{% link technologies/pwa-buildpack/index.md %}
+[pwa-buildpack]: {{ site.baseurl }}{% link pwa-buildpack/index.md %}
 [peregrine]: {{ site.baseurl }}{% link peregrine/index.md %}

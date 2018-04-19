@@ -13,6 +13,11 @@ defaults:
       toc-group: "technologies"
   -
     scope:
+      path: "pwa-buildpack"
+    values:
+      toc-group: "pwa-buildpack"
+  -
+    scope:
       path: "peregrine"
     values:
       toc-group: "peregrine"

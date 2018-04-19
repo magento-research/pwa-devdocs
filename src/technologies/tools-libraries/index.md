@@ -55,7 +55,7 @@ Using GraphQL improves this by reducing the number of server calls and the amoun
 
 
 [webpack]: https://webpack.js.org/
-[pwa-buildpack]: {{ site.baseurl }}{% link technologies/pwa-buildpack/index.md %}
+[pwa-buildpack]: {{ site.baseurl }}{% link pwa-buildpack/index.md %}
 [React]: https://reactjs.org/
 [Redux]: https://redux.js.org/
 [GraphQL]: https://graphql.org/
