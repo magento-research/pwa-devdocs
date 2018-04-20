@@ -1,0 +1,28 @@
+
+<h4 class="guide-title">{{toc.title}}</h4>
+
+<ul class="table-of-contents">
+{% for entry in toc.entries %}
+    <li {% if entry.url == page.url %}class="active"{% endif %}>
+        {% if entry.url %}
+        <a href="{{ site.baseurl }}{{ entry.url }}" {% if entry.css-classes %}class="{{entry.css-classes}}"{% endif %}>{{ entry.label }}</a>
+        {% else %}
+        <span>{{ entry.label }}</span>
+        {% endif %}
+
+        {% if entry.entries.size > 0 %}
+        <ul>
+        {% for entry2 in entry.entries %}
+            <li {% if entry2.url == page.url %}class="active"{% endif %}>
+                {% if entry2.url %}
+                <a href="{{ site.baseurl }}{{ entry2.url }}" {% if entry2.css-classes %}class="{{entry2.css-classes}}"{% endif %}>{{ entry2.label }}</a>
+                {% else %}
+                <span>{{ entry2.label }}</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
