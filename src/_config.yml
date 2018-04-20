@@ -21,3 +21,8 @@ defaults:
       path: "peregrine"
     values:
       toc-group: "peregrine"
+  -
+    scope:
+      path: "venia-pwa-concept"
+    values:
+      toc-group: "venia-pwa-concept"

@@ -6,6 +6,8 @@
       url: /pwa-buildpack/
     - label: Peregrine
       url: /peregrine/
+    - label: Venia Theme (Concept)
+      url: /venia-pwa-concept/
 
 - label: External DevDocs Sites
   links:
