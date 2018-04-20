@@ -1,4 +1,14 @@
 <!-- page-header -->
 <section class="page-intro">
+
 	<h1 class="page-heading">{{ page.title }}</h1>
+
+	<div class="actions-container">
+		<a class="gh-edit" href="{{ site.data.vars.repo }}/tree/master/src/{{ page.path }}">
+			<i class="material-icons edit">mode_edit</i> Improve this page
+		</a>
+		<a class="gh-report" href="{{ site.data.vars.repo }}/issues/new">
+			<i class="material-icons">report</i> Report an issue
+		</a>
+	</div>
 </section>

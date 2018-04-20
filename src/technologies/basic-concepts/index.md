@@ -69,14 +69,14 @@ Optimizing the critical path is important to get the best performance out of a p
 
 [Redux]: https://redux.js.org/introduction/core-concepts
 
-[Application shell]: https://github.com/magento-research/pwa-devdocs/issues/8
-[Service worker]: https://github.com/magento-research/pwa-devdocs/issues/14
-[Component data binding]: https://github.com/magento-research/pwa-devdocs/issues/9
-[GraphQL]: https://github.com/magento-research/pwa-devdocs/issues/10
-[CSS modules]: https://github.com/magento-research/pwa-devdocs/issues/11
-[Client state, reducers, and actions]: https://github.com/magento-research/pwa-devdocs/issues/12
-[Loading and offline states]: https://github.com/magento-research/pwa-devdocs/issues/13
-[Container extensibility]: https://github.com/magento-research/pwa-devdocs/issues/15
-[Performance patterns]: https://github.com/magento-research/pwa-devdocs/issues/16
-[Root components and routing]: https://github.com/magento-research/pwa-devdocs/issues/17
-[Critical path]: https://github.com/magento-research/pwa-devdocs/issues/18
+[Application shell]: {{ site.data.vars.repo }}/issues/8
+[Service worker]: {{ site.data.vars.repo }}/issues/14
+[Component data binding]: {{ site.data.vars.repo }}/issues/9
+[GraphQL]: {{ site.data.vars.repo }}/issues/10
+[CSS modules]: {{ site.data.vars.repo }}/issues/11
+[Client state, reducers, and actions]: {{ site.data.vars.repo }}/issues/12
+[Loading and offline states]: {{ site.data.vars.repo }}/issues/13
+[Container extensibility]: {{ site.data.vars.repo }}/issues/15
+[Performance patterns]: {{ site.data.vars.repo }}/issues/16
+[Root components and routing]: {{ site.data.vars.repo }}/issues/17
+[Critical path]: {{ site.data.vars.repo }}/issues/18

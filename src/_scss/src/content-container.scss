@@ -3,7 +3,44 @@
         table-layout: auto;
     }
 
+    h1 {
+        margin: 0 0 1.25rem;
+    }
+
     h3 {
         font-size: 1.275em;
+    }
+
+    .actions-container {
+        a {
+            padding: 0px 10px;
+            &:hover {
+                text-decoration: none;
+                color: #f26221;
+            }
+
+            &:visited {
+                color: inherit;
+            }
+        }
+
+        i {
+            vertical-align: sub;
+        }
+
+        .actions {
+            list-style-type: none;
+            display: flex;
+            margin: 0px;
+            flex-basis: auto;
+
+        }
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+
+        font-size: .9em;
+        margin-bottom: 10px;
     }
 }
