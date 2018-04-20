@@ -2,9 +2,9 @@
   links:
     - label: Overview
       url: /technologies/overview/
-    - label: pwa-buildpack
+    - label: PWA Buildpack
       url: /pwa-buildpack/
-    - label: peregrine
+    - label: Peregrine
       url: /peregrine/
 
 - label: External DevDocs Sites
