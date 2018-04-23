@@ -14,7 +14,7 @@
     "build": "gulp build",
     "package": "jekyll build --source src/ --config src/_config.yml,_config-production.yml && tar -cvvf site.tar _site",
     "tests": "npm run test-links",
-    "test-links": "node_modules/broken-link-checker-local/out/bin.js _site -ro"
+    "test-links": "rm -fr _site && npm run build && node_modules/broken-link-checker-local/out/bin.js _site -rog"
   },
   "repository": {
     "type": "git",
