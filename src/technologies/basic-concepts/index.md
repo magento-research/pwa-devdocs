@@ -46,8 +46,9 @@ Loading and offline are both states that must be handled by progressive web appl
 
 ## Container extensibility
 
-Writing extensible containers allow others to re-use and alter your container without modifying the source.   
-<sub>[ *[Help write this topic][Container extensibility]* ]</sub>
+Writing extensible containers allow others to re-use and alter your container without modifying the source. 
+
+For more information, see [Container extensibility].
 
 ## Performance patterns
 
@@ -76,7 +77,7 @@ Optimizing the critical path is important to get the best performance out of a p
 [CSS modules]: {{ site.data.vars.repo }}/issues/11
 [Client state, reducers, and actions]: {{ site.data.vars.repo }}/issues/12
 [Loading and offline states]: {{ site.data.vars.repo }}/issues/13
-[Container extensibility]: {{ site.data.vars.repo }}/issues/15
+[Container extensibility]: {{ site.baseurl }}{%link technologies/basic-concepts/container-extensibility/index.md %}
 [Performance patterns]: {{ site.data.vars.repo }}/issues/16
 [Root components and routing]: {{ site.data.vars.repo }}/issues/17
 [Critical path]: {{ site.data.vars.repo }}/issues/18

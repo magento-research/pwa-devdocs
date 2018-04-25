@@ -2,7 +2,8 @@
 title: ContainerChild
 ---
 
-The `ContainerChild` component is the only child allowed within a `Container` in PWA Studio.
+The `ContainerChild` component is the only child allowed within a [Container] in Magento PWA theme.
+This component is responsible for rendering content.
 
 ## Props
 
@@ -31,3 +32,4 @@ import { ContainerChild } from '@magento/peregrine';
 ```
 
 [render prop]: https://reactjs.org/docs/render-props.html
+[Container]: {{ site.baseurl }}{% link technologies/basic-concepts/container-extensibility/index.md %}
