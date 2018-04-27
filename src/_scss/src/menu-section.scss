@@ -1,11 +1,11 @@
 .menu-section {
-    border-bottom: solid #f1f1f1 3px; 
-
     padding-bottom: 5px;
 
     .toc-entry {
         display: flex;
         cursor: pointer;
+
+        border-bottom: 1px solid #d2d2d2;
 
         h4 {
             flex-grow: 1;
@@ -30,13 +30,12 @@
 
 .sidebar {
 
-    ul ul {
-        
-        a {
-            padding-left: 15px;
-        }
+    ul ul a {
+        padding-left: 30px;
     }
+
     .guide-title {
         color: #626366;
+        border-bottom: none;
     }
 }
