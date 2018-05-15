@@ -1,11 +1,12 @@
 <script>
-    var baseUrl = "{{ site.baseurl }}";
-    var algolia = {
-        id : "null",
-        index:  "null",
-        key:  "null"
-    };
+  var baseUrl = "{{ site.baseurl }}";
+  var algolia = {
+    id : "{{ site.algolia.application_id}}",
+    index:  "{{ site.algolia.index_name}}",
+    key:  "{{ site.algolia.api_key}}"
+  };
 </script>
+
 <!-- Hotjar Tracking Code for https://magento-research.github.io/pwa-devdocs/ -->
 <script>
     (function(h,o,t,j,a,r){

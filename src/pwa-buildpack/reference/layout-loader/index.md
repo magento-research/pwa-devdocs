@@ -2,9 +2,9 @@
 title: magento-layout-loader
 ---
 
-<i class="material-icons warning">warning</i> **Warning:**
-*This is a very early implementation.*
-*This API should be considered unstable.*
+{: .bs-callout .bs-callout-warning}
+**Warning:** This is a very early implementation. This API should be considered unstable.
+
 
 The `magento-layout-loader` is a [webpack loader] that transforms [JSX] during compilation.
 It gives Magento modules and extensions the ability to inject or remove content blocks in a layout without modifying the theme source files.
