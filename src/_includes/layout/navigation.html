@@ -23,7 +23,7 @@
 
   {% else %}
   <li class="menuitem {% if page.url contains entry.url %}current{% endif %}">
-      <a href="{{entry.url}}">{{entry.label}}</a>
+      <a href="{{site.baseurl}}{{entry.url}}">{{entry.label}}</a>
   </li>
   {% endif %}
 {% endfor %}
