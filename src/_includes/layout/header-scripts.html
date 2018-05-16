@@ -7,6 +7,10 @@
   };
 </script>
 
+
+
+{% if site.environment == "public" %}
+
 <!-- Hotjar Tracking Code for https://magento-research.github.io/pwa-devdocs/ -->
 <script>
     (function(h,o,t,j,a,r){
@@ -29,3 +33,6 @@
 
   gtag('config', '{{ site.google.analytics }}');
 </script>
+
+
+{% endif %}
