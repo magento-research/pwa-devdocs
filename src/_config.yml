@@ -53,3 +53,6 @@ algolia:
     - i
     - schemas
     - static
+
+google:
+  analytics: 'UA-66243208-1'
