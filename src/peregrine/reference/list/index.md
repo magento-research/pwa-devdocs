@@ -7,14 +7,14 @@ It also manages the selection and focus of those elements.
 
 ## Props
 
-| Name                | Required                                      | Description                                                      |
-| ------------------- | :-------------------------------------------: | ---------------------------------------------------------------- |
-| `classes`           |                                               | A classname hash                                                 |
-| `items`             | <i class="material-icons green">check_box</i> | A keyed collection of data object (an ES2015 [Map] if possible ) |
-| `render`            | <i class="material-icons green">check_box</i> | A [render prop]. A tagname string is also valid.                 |
-| `renderItem`        |                                               | A [render prop]. A tagname string is also valid.                 |
-| `onSelectionChange` |                                               | A callback that fires when the selection state changes.          |
-| `selectionModel`    |                                               | An enum string corresponding to a selection model.               |
+| Name                | Required                                      | Description                                                                                   |
+| ------------------- | :-------------------------------------------: | --------------------------------------------------------------------------------------------- |
+| `classes`           |                                               | A classname object                                                                            |
+| `items`             | <i class="material-icons green">check_box</i> | An iterable that yields `[key, item]` pairs such as an ES2015 [Map]                           |
+| `render`            | <i class="material-icons green">check_box</i> | A [render prop] for the list element. A tagname string, such as `"div"`, is also valid.       |
+| `renderItem`        |                                               | A [render prop] for the list item elements. A tagname string, such as `"div"`, is also valid. |
+| `onSelectionChange` |                                               | A callback that fires when the selection state changes.                                       |
+| `selectionModel`    |                                               | A string corresponding to a selection model.                                                  |
 
 ### Selection models
 
@@ -26,32 +26,31 @@ It also manages the selection and focus of those elements.
 {% raw %}
 import { List } from '@magento/peregrine';
 
-const basicItems = new Map()
+const simpleData = new Map()
     .set('s', 'Small')
     .set('m', 'Medium')
     .set('l', 'Large')
 
 <List
     classes={{ root: 'foo' }}
-    items={basicItems}
-    render="select"
-    renderItem="option"
+    items={simpleData}
+    render={'ul'}
+    renderItem={'li'}
 />
 
-const complexItems = new Map()
+const complexData = new Map()
     .set('s', { id: 's', value: 'Small' })
     .set('m', { id: 'm', value: 'Medium' })
     .set('l', { id: 'l', value: 'Large' })
 
-// let `Select` and `Option` be React components
 <List
     classes={{ root: 'bar' }}
-    items={complexItems}
-    render={Select}
-    renderItem={Option}
-    onSelectionChange={selection => { console.log(selection); }}
+    items={complexData}
+    render={props => (<ul>{props.children}</ul>)}
+    renderItem={props => (<li>{props.value}</li>)}
 />
 {% endraw %}
 ```
 
 [render prop]: https://reactjs.org/docs/render-props.html
+[Map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map

@@ -9,13 +9,13 @@ This component is used as a direct child of the [`Items`] fragment.
 
 ## Props
 
-| Name         | Required                                      | Default | Description                                                    |
-| ------------ | :-------------------------------------------: | ------- | -------------------------------------------------------------- |
-| `classes`    |                                               | `{}`    | A classname hash                                               |
-| `hasFocus`   |                                               | `false` | Set to `true` if the browser is currently focused on the item  |
-| `isSelected` |                                               | `false` | Set to `true` if the item is currently selected                |
-| `item`       | <i class="material-icons green">check_box</i> |         | A data object. By default, `Item` is rendered as a raw string. |
-| `render`     | <i class="material-icons green">check_box</i> | `'div'` | A render prop or HTML tagname string.                          |
+| Name         | Required                                      | Default | Description                                                   |
+| ------------ | :-------------------------------------------: | ------- | ------------------------------------------------------------- |
+| `classes`    |                                               | `{}`    | A classname hash                                              |
+| `hasFocus`   |                                               | `false` | Set to `true` if the browser is currently focused on the item |
+| `isSelected` |                                               | `false` | Set to `true` if the item is currently selected               |
+| `item`       | <i class="material-icons green">check_box</i> |         | A data object. If this is a string, it is rendered as a child |
+| `render`     | <i class="material-icons green">check_box</i> | `'div'` | A render prop or HTML tagname string, such as `"div"`.        |
 
 ## Example
 

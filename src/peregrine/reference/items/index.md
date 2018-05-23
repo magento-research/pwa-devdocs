@@ -11,11 +11,11 @@ The `Items` component is used as a direct child of the [`List`] component.
 
 ## Props
 
-| Name             | Required                                      | Description                                                      |
-| ---------------- | :-------------------------------------------: | ---------------------------------------------------------------- |
-| `items`          | <i class="material-icons green">check_box</i> | A keyed collection of data object (an ES2015 [Map] if possible ) |
-| `renderItem`     |                                               | A [render prop] or HTML tagname string.                          |
-| `selectionModel` |                                               | An enum string corresponding to a selection model.               |
+| Name             | Required                                      | Description                                                         |
+| ---------------- | :-------------------------------------------: | ------------------------------------------------------------------- |
+| `items`          | <i class="material-icons green">check_box</i> | An iterable that yields `[key, item]` pairs such as an ES2015 [Map] |
+| `renderItem`     |                                               | A [render prop] or HTML tagname string.                             |
+| `selectionModel` |                                               | A string corresponding to a selection model.                        |
 
 ### Selection models
 
