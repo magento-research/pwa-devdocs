@@ -17,4 +17,7 @@ entries:
       
       - label: PWADevServer
         url: /pwa-buildpack/reference/pwa-dev-server/
+
+      - label: ServiceWorkerPlugin
+        url: /pwa-buildpack/reference/serviceworker-plugin/
       
