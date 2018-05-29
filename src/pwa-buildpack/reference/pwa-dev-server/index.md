@@ -32,7 +32,7 @@ PWADevServer performs the following during setup:
 
 **Parameters:**
 
-* `options: PWADevServerOptions)`
+* `options: PWADevServerOptions`
     * `options.id: string` (**required**) - A unique ID for this project used to create the dev domain name.
       We recommend using the theme name for this value, but you can use any domain-name-safe string.
 
