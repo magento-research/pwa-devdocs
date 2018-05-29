@@ -15,3 +15,6 @@ entries:
       - label: MagentoRootComponentsPlugin
         url: /pwa-buildpack/reference/root-components-plugin/
       
+      - label: PWADevServer
+        url: /pwa-buildpack/reference/pwa-dev-server/
+      

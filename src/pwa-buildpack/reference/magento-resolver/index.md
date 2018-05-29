@@ -55,7 +55,7 @@ module.exports = async env => {
 
 {: .bs-callout .bs-callout-info}
 **Note:**
-The example provides uses the newer, cleaner `asynch/await` syntax instead of using Promises directly 
+The example provided uses the newer, cleaner `asynch/await` syntax instead of using Promises directly 
 
 
 [`resolve`]: https://webpack.js.org/configuration/resolve/
