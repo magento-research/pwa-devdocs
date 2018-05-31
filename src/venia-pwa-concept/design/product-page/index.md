@@ -9,7 +9,7 @@ If have any feedback or would like to join the PWA conversation, please join our
 
 ## Page
 
-![Offline notification bar]({% link venia-pwa-concept/design/product-page/images/offline-notification-bar.png %}){:width="400px"}
+![Offline notification bar]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/offline-notification-bar.png %}){:width="400px"}
 
 **Page states:**
 
@@ -21,9 +21,9 @@ If have any feedback or would like to join the PWA conversation, please join our
 
 ## Header 
 
-![Header menu collapsed without cart item]({% link venia-pwa-concept/design/product-page/images/header-menu-collapsed-without-cart-item.png %}){:width="400px"}
+![Header menu collapsed without cart item]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/header-menu-collapsed-without-cart-item.png %}){:width="400px"}
 
-![Header menu collapsed with cart item]({% link venia-pwa-concept/design/product-page/images/header-menu-collapsed-with-cart-item.png %}){:width="400px"}
+![Header menu collapsed with cart item]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/header-menu-collapsed-with-cart-item.png %}){:width="400px"}
 
 **Page states:**
 
@@ -38,7 +38,7 @@ If have any feedback or would like to join the PWA conversation, please join our
 
 ## Title bar
 
-![Title bar]({% link venia-pwa-concept/design/product-page/images/title-bar.png %}){:width="400px"}
+![Title bar]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/title-bar.png %}){:width="400px"}
 
 **Visual specifications:**
 
@@ -58,7 +58,7 @@ The price is vertically centered in the bar.
 
 ## Image carousel
 
-![Image carousel]({% link venia-pwa-concept/design/product-page/images/image-carousel.png %}){:width="400px"}
+![Image carousel]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/image-carousel.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -74,8 +74,8 @@ The price is vertically centered in the bar.
 
 ## Add to wishlist
 
-![Add to wishlist]({% link venia-pwa-concept/design/product-page/images/add-to-wishlist.png %}){:width="400px"}
-![Added to wishlist]({%link venia-pwa-concept/design/product-page/images/added-to-wishlist.png%}){:width="400px"}
+![Add to wishlist]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/add-to-wishlist.png %}){:width="400px"}
+![Added to wishlist]({{ site.baseurl }}{%link venia-pwa-concept/design/product-page/images/added-to-wishlist.png%}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -88,7 +88,7 @@ The price is vertically centered in the bar.
 
 ## Share
 
-![Add to wishlist]({% link venia-pwa-concept/design/product-page/images/add-to-wishlist.png %}){:width="400px"}
+![Add to wishlist]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/add-to-wishlist.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -96,7 +96,7 @@ The price is vertically centered in the bar.
 
 ## Size selector
 
-![Size selector]({% link venia-pwa-concept/design/product-page/images/size-selector.png %}){:width="400px"}
+![Size selector]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/size-selector.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -110,8 +110,8 @@ The price is vertically centered in the bar.
 
 ## Color selector
 
-![Color selector]({% link venia-pwa-concept/design/product-page/images/color-selector.png %}){:width="400px"}
-![Color selector]({% link venia-pwa-concept/design/product-page/images/color-selector2.png %}){:width="400px"}
+![Color selector]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/color-selector.png %}){:width="400px"}
+![Color selector]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/color-selector2.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -122,7 +122,7 @@ The price is vertically centered in the bar.
 
 ## Label selector
 
-![Label selector]({% link venia-pwa-concept/design/product-page/images/label-selector.png %}){:width="400px"}
+![Label selector]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/label-selector.png %}){:width="400px"}
 
 **Visual specifications:**
 
@@ -137,7 +137,7 @@ The width adjusts to fit the text with a fixed internal padding.
 
 ## Quantity selector
 
-![Quantity selector]({% link venia-pwa-concept/design/product-page/images/quantity-selector.png %}){:width="400px"}
+![Quantity selector]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/quantity-selector.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -150,8 +150,8 @@ The width adjusts to fit the text with a fixed internal padding.
 ## Quantity sync bar
 
 
-![Quantity selector updating]({% link venia-pwa-concept/design/product-page/images/quantity-selector-updating.png %}){:width="400px"}
-![Quantity selector updated]({% link venia-pwa-concept/design/product-page/images/quantity-selector-updated.png %}){:width="400px"}
+![Quantity selector updating]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/quantity-selector-updating.png %}){:width="400px"}
+![Quantity selector updated]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/quantity-selector-updated.png %}){:width="400px"}
 
 **Page states:**
 
@@ -163,7 +163,7 @@ The width adjusts to fit the text with a fixed internal padding.
 ## Product description
 
 
-![Product description]({% link venia-pwa-concept/design/product-page/images/product-description.png %}){:width="400px"}
+![Product description]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/product-description.png %}){:width="400px"}
 
 **Visual specifications:**
 
@@ -171,7 +171,7 @@ Displayed using formatted text.
 
 ## Recommended carousel
 
-![Recommended products carousel]({% link venia-pwa-concept/design/product-page/images/recommended-products-carousel.png %}){:width="400px"}
+![Recommended products carousel]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/recommended-products-carousel.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -182,9 +182,9 @@ Displayed using formatted text.
 
 ## Add to cart
 
-![Add to cart (1)]({% link venia-pwa-concept/design/product-page/images/atc-purchase-bar1.png %}){:width="400px"}
-![Add to cart (2)]({% link venia-pwa-concept/design/product-page/images/atc-purchase-bar2.png %}){:width="400px"}
-![Add to cart (3)]({% link venia-pwa-concept/design/product-page/images/atc-purchase-bar3.png %}){:width="400px"}
+![Add to cart (1)]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/atc-purchase-bar1.png %}){:width="400px"}
+![Add to cart (2)]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/atc-purchase-bar2.png %}){:width="400px"}
+![Add to cart (3)]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/atc-purchase-bar3.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -197,7 +197,7 @@ Displayed using formatted text.
 
 ## Buy now / Buy with
 
-![Buy now]({% link venia-pwa-concept/design/product-page/images/atc-purchase-bar1.png %}){:width="400px"}
+![Buy now]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/atc-purchase-bar1.png %}){:width="400px"}
 
 **Mobile interactions:**
 
@@ -205,7 +205,7 @@ Displayed using formatted text.
 
 ## Footer
 
-![Footer]({% link venia-pwa-concept/design/product-page/images/footer-full.png %}){:width="400px"}
+![Footer]({{ site.baseurl }}{% link venia-pwa-concept/design/product-page/images/footer-full.png %}){:width="400px"}
 
 **Mobile interactions:**
 
