@@ -5,3 +5,9 @@ entries:
 
   - label: Setup
     url: /venia-pwa-concept/setup/
+
+  - label: Design
+    entries:
+    
+    - label: Product page
+      url: /venia-pwa-concept/design/product-page/
