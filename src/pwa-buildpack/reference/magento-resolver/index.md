@@ -15,13 +15,11 @@ Currently, MagentoResolver does very little, but it's likely that the Magento de
 
 **Parameters:**
 
-* `options: ResolverOptions`
-    * `options.path: object`(**required**) - Local absolute paths to theme folders
-    * `options.root` - Absolute path to the root directory of the theme
+* `options:`[`LocalProjectLocation`] - Configuration object that describes where the theme folders are located.
 
-**Return**
+**Return:**
 
-[Promise] configuration type for Webpack
+A [Promise] configuration type for webpack.
 
 {: .bs-callout .bs-callout-info}
 **Note:**
@@ -53,10 +51,16 @@ module.exports = async env => {
 ```
 
 
+
+{: .bs-callout .bs-callout-tip}
+The special `__dirname` variable in Node always refers to the directory containing the currently executing script file.
+This is different from the "working directory", which is the current directory of the shell when the current process was started.
+
 {: .bs-callout .bs-callout-info}
 **Note:**
-The example provided uses the newer, cleaner `asynch/await` syntax instead of using Promises directly 
+The example provided uses the newer, cleaner `async/await` syntax instead of using Promises directly.
 
 
 [`resolve`]: https://webpack.js.org/configuration/resolve/
 [Promise]: https://webpack.js.org/configuration/configuration-types/#exporting-a-promise
+[`LocalProjectLocation`]: {{ site.baseurl }}{%link pwa-buildpack/reference/object-types/index.md %}#localprojectlocation

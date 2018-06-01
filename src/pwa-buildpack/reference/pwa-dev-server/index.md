@@ -21,7 +21,7 @@ PWADevServer performs the following during setup:
 * Adds the certificate to the OS-level keychain for browser trust  
   *(requires elevated permissions, so you may be asked for a password)*
 * Customizes the `webpack-dev-server` instance to:
-    * Proxy all asset request not managed by webpack to the Magento store
+    * Proxy all asset requests not managed by webpack to the Magento store
     * Emulate the public path settings of the Magento store
     * Automatically switch domain names in HTML attributes
     * Debug or disable ServiceWorkers
@@ -33,20 +33,18 @@ PWADevServer performs the following during setup:
 **Parameters:**
 
 * `options: PWADevServerOptions`
-    * `options.id: string` (**required**) - A unique ID for this project used to create the dev domain name.
+    * `id: string` (**required**) - A unique ID for this project used to create the dev domain name.
       We recommend using the theme name for this value, but you can use any domain-name-safe string.
 
       If you are developing several copies of a theme simultaneously, use this ID to distinguish them in the internal tooling.
-    * `options.publicPath: string` (**required**) - The public path to the theme assets in the backend server.
+    * `publicPath: string` (**required**) - The public path to the theme assets in the backend server.
       
       Example:
       `/pub/static/frontend/Vendor/themename/en_US`
-    * `options.backendDomain: string` (**required**) - The URL of the backing store.
-    * `options.paths: object` (**required**) - The local absolute paths to the theme folders.
-      * `paths.output` - Directory for built JavaScript files
-      * `paths.assets` - Directory for other puvlic static assets
-    * `options.serviceWorkerFileName: string` (**required**) - The name of the ServiceWorker file this theme creates, such as `sw.js`.
-    * `options.changeOrigin: boolean` (**experimental**) - Try to parse an HTML responses from the proxied Magento backend and replace its domain name with the dev server domain name.
+    * `backendDomain: string` (**required**) - The URL of the backing store.
+    * `paths:`[`LocalProjectLocation`] (**required**) - Configuration object that describes where to deploy JavaScript files and the public static assets directory.
+    * `serviceWorkerFileName: string` (**required**) - The name of the ServiceWorker file this theme creates, such as `sw.js`.
+    * `changeOrigin: boolean` (**experimental**) - Try to parse an HTML responses from the proxied Magento backend and replace its domain name with the dev server domain name.
 
       The default value is `false`.
 
@@ -92,7 +90,7 @@ module.exports = async env => {
 
 {: .bs-callout .bs-callout-info}
 **Note:**
-The example provided uses the newer, cleaner `asynch/await` syntax instead of using Promises directly 
+The example provided uses the newer, cleaner `async/await` syntax instead of using Promises directly 
 
 {: .bs-callout .bs-callout-info}
 **Note:**
@@ -103,3 +101,4 @@ To get the best performance from the ServiceWorker, set `config.output.publicpat
 
 [`devServer`]: https://webpack.js.org/configuration/dev-server/
 [Promise]: https://webpack.js.org/configuration/configuration-types/#exporting-a-promise
+[`LocalProjectLocation`]: {{ site.baseurl }}{%link pwa-buildpack/reference/object-types/index.md %}#localprojectlocation

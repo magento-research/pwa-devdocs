@@ -31,6 +31,9 @@ entries:
       
       - label: MagentoRootComponentsPlugin
         url: /pwa-buildpack/reference/root-components-plugin/
+
+      - label: Object Types
+        url: /pwa-buildpack/reference/object-types/
       
       - label: PWADevServer
         url: /pwa-buildpack/reference/pwa-dev-server/

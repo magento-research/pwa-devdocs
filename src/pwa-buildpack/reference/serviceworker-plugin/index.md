@@ -23,8 +23,7 @@ Plugin constructor for the `ServiceWorkerPlugin` class.
 * `options: PluginOptions`
     * `options.env: object` (**required**) - An object that represents the current environment
         * `env.phase: string` (**required**) - Must be **development** or **production**
-    * `options.paths: object` (**required**) - The local absolute paths to theme folders
-        * `paths.assets: string` - The directory for public static assets
+    * `options.paths:`[`LocalProjectLocation`] (**required**) - Configuration object that describes where the public static assets are located.
     * `options.enableServiceWorkerDebugging: boolean` - When `true`, hot reloading is enabled and the ServiceWorker is active in the document root.
         
         When `false`, the ServiceWorker is disabled to prevent cache interruptions when hot reloading assets.
@@ -68,3 +67,4 @@ module.exports = async env => {
 ```
 
 [Google Workbox Webpack Plugin]: https://developers.google.com/web/tools/workbox/guides/generate-service-worker/
+[`LocalProjectLocation`]: {{ site.baseurl }}{%link pwa-buildpack/reference/object-types/index.md %}#localprojectlocation
