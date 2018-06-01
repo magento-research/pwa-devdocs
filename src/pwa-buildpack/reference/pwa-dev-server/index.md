@@ -30,23 +30,21 @@ PWADevServer performs the following during setup:
 
 ### `configure(options)`
 
-**Parameters:**
+#### Parameters
 
-* `options: PWADevServerOptions`
-    * `id: string` (**required**) - A unique ID for this project used to create the dev domain name.
-      We recommend using the theme name for this value, but you can use any domain-name-safe string.
+* `options: PWADevServerOptions` - Configuration object for the PWADevserver module
 
-      If you are developing several copies of a theme simultaneously, use this ID to distinguish them in the internal tooling.
-    * `publicPath: string` (**required**) - The public path to the theme assets in the backend server.
-      
-      Example:
-      `/pub/static/frontend/Vendor/themename/en_US`
-    * `backendDomain: string` (**required**) - The URL of the backing store.
-    * `paths:`[`LocalProjectLocation`] (**required**) - Configuration object that describes where to deploy JavaScript files and the public static assets directory.
-    * `serviceWorkerFileName: string` (**required**) - The name of the ServiceWorker file this theme creates, such as `sw.js`.
-    * `changeOrigin: boolean` (**experimental**) - Try to parse an HTML responses from the proxied Magento backend and replace its domain name with the dev server domain name.
+The `PWADevServerOptions` object contains the following properties:
 
-      The default value is `false`.
+| Property: Type                   | Description                                                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `id: string`                     | **Required.** A [unique ID] for this project.                                                                    |
+| `publicPath: string`             | **Required.** The public path to the theme assets in the backend server.                                         |
+| `backendDomain: string`          | **Required.** The URL of the backend store.                                                                      |
+| `paths:`[`LocalProjectLocation`] | **Required.** Describes the location of the public static assets directory and where to deploy JavaScript files. |
+| `serviceWorkerFileName: string`  | **Required.** The name of the ServiceWorker file this theme creates, such as `sw.js`.                            |
+| `changeOrigin: boolean`          | **Experimental.** Toggles the [change origin feature]. Defaults to `false`.                                      |
+{:style="table-layout:auto"}
 
 **Return:**
 
@@ -98,7 +96,19 @@ The emitted `devServer` object may have a custom `publicPath`.
 To get the best performance from the ServiceWorker, set `config.output.publicpath` to the `publicPath` value once the `devServer` is created but before creating a ServiceWorker plugin.
 
 
+## Choosing an ID
 
+The `PWADevServerOptions.id` property is used to create the dev domain name.
+We recommend using the theme name for this value, but you can use any domain-name-safe string.
+
+If you are developing several copies of a theme simultaneously, use this ID to distinguish them in the internal tooling.
+
+## Change origin feature
+
+The `PWADevServerOptions.changeOrigin` property toggles an experimental feature that tries to parse HTML responses from the proxied Magento backend and replaces its domain name with the dev server domain name.
+
+[change origin feature]: #change-origin-feature
+[unique ID]: #choosing-an-id
 [`devServer`]: https://webpack.js.org/configuration/dev-server/
 [Promise]: https://webpack.js.org/configuration/configuration-types/#exporting-a-promise
 [`LocalProjectLocation`]: {{ site.baseurl }}{%link pwa-buildpack/reference/object-types/index.md %}#localprojectlocation
