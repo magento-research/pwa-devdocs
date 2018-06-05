@@ -2,8 +2,14 @@
 title: Color selector component
 ---
 
-![Color selector]({{ site.baseurl }}{% link venia-pwa-concept/images/color-selector.png %}){:width="400px"}
-![Color selector]({{ site.baseurl }}{% link venia-pwa-concept/images/color-selector2.png %}){:width="400px"}
+| Description        | Reference image                   |
+| ------------------ | :-------------------------------: |
+| Initial state      | ![Color selector]{:width="300px"} |
+| New color selected | ![Color selected]{:width="300px"} |
+{:style="table-layout:auto"}
+
+[Color selector]: {{ site.baseurl }}{% link venia-pwa-concept/images/color-selector.png %}
+[Color selected]: {{ site.baseurl }}{% link venia-pwa-concept/images/color-selector2.png %}
 
 ## Interactions
 

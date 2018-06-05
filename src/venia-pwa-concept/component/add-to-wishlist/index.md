@@ -2,8 +2,14 @@
 title: Add to wishlist component
 ---
 
-![Add to wishlist]({{ site.baseurl }}{% link venia-pwa-concept/images/add-to-wishlist.png %}){:width="400px"}
-![Added to wishlist]({{ site.baseurl }}{%link venia-pwa-concept/images/added-to-wishlist.png%}){:width="400px"}
+| Description                              | Reference image                      |
+| ---------------------------------------- | :----------------------------------: |
+| Initial **Add to Wishlist** button state | ![Add to wishlist]{:width="300px"}   |
+| Item added to wishlist                   | ![Added to wishlist]{:width="300px"} |
+{:style="table-layout:auto"}
+
+[Add to wishlist]: {{ site.baseurl }}{% link venia-pwa-concept/images/add-to-wishlist.png %}
+[Added to wishlist]: {{ site.baseurl }}{%link venia-pwa-concept/images/added-to-wishlist.png%}
 
 ## Interactions
 

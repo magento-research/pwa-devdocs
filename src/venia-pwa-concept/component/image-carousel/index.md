@@ -2,7 +2,10 @@
 title: Image carousel component
 ---
 
-![Image carousel]({{ site.baseurl }}{% link venia-pwa-concept/images/image-carousel.png %}){:width="400px"}
+| Description    | Reference image                   |
+| -------------- | :-------------------------------: |
+| Image carousel | ![Image carousel]{:width="300px"} |
+{:style="table-layout:auto"}
 
 ## Interactions
 
@@ -12,3 +15,5 @@ title: Image carousel component
   Disabled left or right arrow indicates the beginning or end of the carousel.
 * **Click** - (Desktop only) TBD
 * **Click + Drag** - (Desktop only) Zoom
+
+[Image carousel]: {{ site.baseurl }}{% link venia-pwa-concept/images/image-carousel.png %}

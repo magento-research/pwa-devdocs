@@ -2,8 +2,14 @@
 title: Quantity sync bar component
 ---
 
-![Quantity selector updating]({{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector-updating.png %}){:width="400px"}
-![Quantity selector updated]({{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector-updated.png %}){:width="400px"}
+| Description                | Reference image                               |
+| -------------------------- | :-------------------------------------------: |
+| Quantity selector updating | ![Quantity selector updating]{:width="300px"} |
+| Quantity selector updated  | ![Quantity selector updated]{:width="300px"}  |
+{:style="table-layout:auto"}
+
+[Quantity selector updating]: {{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector-updating.png %}
+[Quantity selector updated]: {{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector-updated.png %}
 
 ## Page states
 

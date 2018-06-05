@@ -2,7 +2,10 @@
 title: Label selector component
 ---
 
-![Label selector]({{ site.baseurl }}{% link venia-pwa-concept/images/label-selector.png %}){:width="400px"}
+| Description    | Reference image                   |
+| -------------- | :-------------------------------: |
+| Label selector | ![Label selector]{:width="300px"} |
+{:style="table-layout:auto"}
 
 ## Visual specifications
 
@@ -15,3 +18,5 @@ The width adjusts to fit the text with a fixed internal padding.
 * **Selection** - On tap, the color reverses and the size listing becomes black with white text
 * **Selection removal** - On tap, the color reverses and becomes whit with black border and black text 
 
+
+[Label selector]: {{ site.baseurl }}{% link venia-pwa-concept/images/label-selector.png %}

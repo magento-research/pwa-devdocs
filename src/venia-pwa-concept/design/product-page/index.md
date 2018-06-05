@@ -7,22 +7,37 @@ title: Product page
 This design specification is still in development.
 If have any feedback or would like to join the PWA conversation, please join our [Slack] channel.
 
-| Reference image                               | Components                                    |
-| :-------------------------------------------: | :-------------------------------------------: |
-| ![Page image]{:width="400px"}                 | [Page]                                        |
-| ![Header image]{:width="400px"}               | [Header]                                      |
-| ![Title bar image]{:width="400px"}            | [Title bar]                                   |
-| ![Image carousel image]{:width="400px"}       | [Image carousel]                              |
-| ![Add to wishlist image]{:width="400px"}      | [Add to wishlist] <br/> [Share]               |
-| ![Size selector image]{:width="400px"}        | [Size selector]                               |
-| ![Color selector image]{:width="400px"}       | [Color selector]                              |
-| ![Label selector image]{:width="400px"}       | [Label selector]                              |
-| ![Quantity selector image]{:width="400px"}    | [Quantity selector] <br/> [Quantity sync bar] |
-| ![Product description image]{:width="400px"}  | [Product description]                         |
-| ![Recommended carousel image]{:width="400px"} | [Recommended carousel]                        |
-| ![Add to cart image]{:width="400px"}          | [Add to cart] <br/> [Buy now / Buy with]      |
-| ![Footer image]{:width="400px"}               | [Footer]                                      |
+## Layout
+
+The following image is a preview of the layout for the Product page. 
+To see the layout from a user's perspective, see the [interactive mockup].
+
+![Product page]{:width="400px"}
+
+## Components
+
+The Product page is made up of the following components:
+
+| Components                                            | Reference image                               |
+| ----------------------------------------------------- | :-------------------------------------------: |
+| **[Page]**                                            |                                               |
+| **[Header]**                                          | ![Header image]{:width="400px"}               |
+| **[Title bar]**                                       | ![Title bar image]{:width="400px"}            |
+| **[Image carousel]**                                  | ![Image carousel image]{:width="400px"}       |
+| **[Add to wishlist]** <br/> **[Share]**               | ![Add to wishlist image]{:width="400px"}      |
+| **[Size selector]**                                   | ![Size selector image]{:width="400px"}        |
+| **[Color selector]**                                  | ![Color selector image]{:width="400px"}       |
+| **[Label selector]**                                  | ![Label selector image]{:width="400px"}       |
+| **[Quantity selector]** <br/> **[Quantity sync bar]** | ![Quantity selector image]{:width="400px"}    |
+| **[Product description]**                             | ![Product description image]{:width="400px"}  |
+| **[Recommended carousel]**                            | ![Recommended carousel image]{:width="400px"} |
+| **[Add to cart]** <br/> **[Buy now / Buy with]**      | ![Add to cart image]{:width="400px"}          |
+| **[Footer]**                                          | ![Footer image]{:width="400px"}               |
 {:style="table-layout:auto"}
+
+
+[Product page]: {{ site.baseurl }}{% link venia-pwa-concept/images/PD-docs-preview.jpg %}
+[interactive mockup]: https://magento.invisionapp.com/share/FVK8N2XAX7Q#/screens
 
 [Page image]: {{ site.baseurl }}{% link venia-pwa-concept/images/offline-notification-bar.png %}
 [Page]: {{ site.baseurl }}{% link venia-pwa-concept/component/page/index.md %}

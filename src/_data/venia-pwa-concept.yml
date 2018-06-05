@@ -40,7 +40,7 @@ entries:
       url: /venia-pwa-concept/component/label-selector/
 
     - label: Page
-      url: /venia-pwa-concept/component/page
+      url: /venia-pwa-concept/component/page/
     
     - label: Product description
       url: /venia-pwa-concept/component/product-description/

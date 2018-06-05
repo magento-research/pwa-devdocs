@@ -1,7 +1,10 @@
 ---
 title: Quantity selector component
 ---
-![Quantity selector]({{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector.png %}){:width="400px"}
+| Description       | Reference image                      |
+| ----------------- | :----------------------------------: |
+| Quantity selector | ![Quantity selector]{:width="300px"} |
+{:style="table-layout:auto"}
 
 ## Interactions
 
@@ -10,3 +13,5 @@ title: Quantity selector component
   
   This field can be a standard drop-select or an open numeric field that summons the numerals keyboard for number entries.
 * **Selection removal** - Values reset to the default quantity of 1 when configuration parameters are removed or the item is deleted fomr the mini-cart.
+
+[Quantity selector]: {{ site.baseurl }}{% link venia-pwa-concept/images/quantity-selector.png %}

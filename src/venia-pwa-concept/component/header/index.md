@@ -2,10 +2,15 @@
 title: Header component
 ---
 
-![Header menu collapsed without cart item]({{ site.baseurl }}{% link venia-pwa-concept/images/header-menu-collapsed-without-cart-item.png %}){:width="400px"}
+| Description           | Reference image                                            |
+| --------------------- | :--------------------------------------------------------: |
+| Header                | ![Header menu collapsed without cart item]{:width="400px"} |
+| Header with cart item | ![Header menu collapsed with cart item]{:width="400px"}    |
+{:style="table-layout:auto"}
 
-![Header menu collapsed with cart item]({{ site.baseurl }}{% link venia-pwa-concept/images/header-menu-collapsed-with-cart-item.png %}){:width="400px"}
 
+[Header menu collapsed without cart item]: {{ site.baseurl }}{% link venia-pwa-concept/images/header-menu-collapsed-without-cart-item.png %}
+[Header menu collapsed with cart item]: {{ site.baseurl }}{% link venia-pwa-concept/images/header-menu-collapsed-with-cart-item.png %}
 ## Page states
 
 * **Refresh** - loads a cached version

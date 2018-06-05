@@ -2,7 +2,10 @@
 title: Title bar component
 ---
 
-![Title bar]({{ site.baseurl }}{% link venia-pwa-concept/images/title-bar.png %}){:width="400px"}
+| Description | Reference image              |
+| ----------- | :--------------------------: |
+| Title bar   | ![Title bar]{:width="300px"} |
+{:style="table-layout:auto"}
 
 ## Visual specifications
 
@@ -20,3 +23,5 @@ The price is vertically centered in the bar.
 * **Scroll up** - Component disappearts from the top on scroll and appended to the "Add to cart" bar.
 * **Scroll down** - Not visible until the user scrolls to the top of the page.
 * **Page referesh** - TBD
+
+[Title bar]: {{ site.baseurl }}{% link venia-pwa-concept/images/title-bar.png %}

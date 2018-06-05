@@ -2,7 +2,10 @@
 title: Size selector component
 ---
 
-![Size selector]({{ site.baseurl }}{% link venia-pwa-concept/images/size-selector.png %}){:width="400px"}
+| Description   | Reference image                  |
+| ------------- | :------------------------------: |
+| Size selector | ![Size selector]{:width="300px"} |
+{:style="table-layout:auto"}
 
 ## Interactions
 
@@ -10,3 +13,5 @@ title: Size selector component
 * **Selection** - On tap, the color reverses on the size listing and becomes black with white text
 * **Selection removal** - On tap, the color reverses to become white with black borders and black text
 * **Hover** - (Desktop only)
+
+[Size selector]: {{ site.baseurl }}{% link venia-pwa-concept/images/size-selector.png %}
