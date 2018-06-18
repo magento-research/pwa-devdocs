@@ -23,9 +23,9 @@ It cannot be a dynamic value or a variable reference.
 ## Extending a Container
 
 [`ContainerChild`] components are the only allowed children of a Container. 
-This makes it possible to extend a Container using the `magento-loader-layout` tool from the [PWA Buildpack].
+This makes it possible to extend a Container using the [`magento-loader-layout`] tool from the [PWA Buildpack].
 
-`magento-loader-layout` supports the following operations:
+[`magento-loader-layout`] supports the following operations:
 
 * Remove a container
 * Remove a child component in a container
